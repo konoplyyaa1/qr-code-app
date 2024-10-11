@@ -112,6 +112,7 @@ export default function Index() {
       </ui-title-bar>
       <Layout>
         <Layout.Section>
+          <Text variant="headingMd">QR codes</Text>
           <Card padding="0">
             {qrCodes.length === 0 ? (
               <EmptyQRCodeState onAction={() => navigate("qrcodes/new")} />
